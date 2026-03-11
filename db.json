@@ -1,0 +1,229 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Titre 1",
+      "author": "Auteur 1",
+      "date": "2026-03-11",
+      "content": "Contenu de la publication 1"
+    },
+    {
+      "id": "2",
+      "title": "Titre 2",
+      "author": "Auteur 2",
+      "date": "2026-03-10",
+      "content": "Contenu de la publication 2"
+    },
+    {
+      "id": "1773215603048",
+      "title": "Post Cypress Test",
+      "author": "Auteur Test",
+      "content": "Contenu du post pour Cypress",
+      "date": "2026-03-11T07:53:23.048Z"
+    },
+    {
+      "id": "1773215920451",
+      "title": "Post Cypress Test",
+      "author": "Auteur Test",
+      "content": "Contenu du post pour Cypress",
+      "date": "2026-03-11T07:58:40.451Z"
+    },
+    {
+      "id": 1773216246010,
+      "title": "Post Cypress Test",
+      "author": "Auteur Test",
+      "content": "Contenu du post pour Cypress",
+      "date": "2026-03-11T08:04:06.010Z"
+    },
+    {
+      "id": 1773216262944,
+      "title": "Post Cypress Test",
+      "author": "Auteur Test",
+      "content": "Contenu du post pour Cypress",
+      "date": "2026-03-11T08:04:22.944Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "postId": 1,
+      "date": "2026-03-11",
+      "content": "Premier commentaire"
+    },
+    {
+      "id": "2",
+      "postId": 1,
+      "date": "2026-03-11",
+      "content": "Deuxième commentaire"
+    },
+    {
+      "id": "1773212020989",
+      "postId": 1,
+      "date": "2026-03-11T06:53:40.989Z",
+      "content": "Commentaire Cypress Test"
+    },
+    {
+      "id": "1773212105892",
+      "postId": 1,
+      "date": "2026-03-11T06:55:05.892Z",
+      "content": "Commentaire Cypress Test"
+    },
+    {
+      "id": "1773212378890",
+      "postId": 1,
+      "date": "2026-03-11T06:59:38.890Z",
+      "content": "Commentaire Cypress Test"
+    },
+    {
+      "id": "1773212401492",
+      "postId": 1,
+      "date": "2026-03-11T07:00:01.492Z",
+      "content": "Commentaire Cypress Test"
+    },
+    {
+      "id": "1773212687532",
+      "postId": 1,
+      "date": "2026-03-11T07:04:47.532Z",
+      "content": "Commentaire Cypress Test"
+    },
+    {
+      "id": "1773212695313",
+      "postId": 1,
+      "date": "2026-03-11T07:04:55.313Z",
+      "content": "Commentaire Cypress Test"
+    },
+    {
+      "id": "1773212843468",
+      "postId": 1,
+      "date": "2026-03-11T07:07:23.468Z",
+      "content": "Test commentaire Cypress"
+    },
+    {
+      "id": "1773213044293",
+      "postId": 1,
+      "date": "2026-03-11T07:10:44.293Z",
+      "content": "Test commentaire Cypress"
+    },
+    {
+      "id": "1773213154604",
+      "postId": 1,
+      "date": "2026-03-11T07:12:34.604Z",
+      "content": "Test commentaire Cypress"
+    },
+    {
+      "id": "1773213175175",
+      "postId": 1,
+      "date": "2026-03-11T07:12:55.175Z",
+      "content": "Test commentaire Cypress"
+    },
+    {
+      "id": "1773213309467",
+      "postId": 1,
+      "date": "2026-03-11T07:15:09.467Z",
+      "content": "Test commentaire Cypress"
+    },
+    {
+      "id": "1773213385098",
+      "postId": 1,
+      "date": "2026-03-11T07:16:25.098Z",
+      "content": "Test commentaire Cypress"
+    },
+    {
+      "id": "1773213485749",
+      "postId": 1,
+      "date": "2026-03-11T07:18:05.749Z",
+      "content": "Test commentaire Cypress"
+    },
+    {
+      "id": "1773213875025",
+      "postId": 1,
+      "date": "2026-03-11T07:24:35.025Z",
+      "content": "Test commentaire Cypress"
+    },
+    {
+      "id": "1773214070731",
+      "postId": 1,
+      "date": "2026-03-11T07:27:50.731Z",
+      "content": "Test commentaire Cypress"
+    },
+    {
+      "id": "1773214115548",
+      "postId": 1,
+      "date": "2026-03-11T07:28:35.548Z",
+      "content": "Test commentaire Cypress"
+    },
+    {
+      "id": "1773214344318",
+      "postId": 1,
+      "date": "2026-03-11T07:32:24.318Z",
+      "content": "Test commentaire Cypress"
+    },
+    {
+      "id": "1773214588884",
+      "postId": 1,
+      "date": "2026-03-11T07:36:28.884Z",
+      "content": "Test commentaire Cypress"
+    },
+    {
+      "id": "1773214853261",
+      "postId": 1,
+      "date": "2026-03-11T07:40:53.261Z",
+      "content": "Test commentaire Cypress"
+    },
+    {
+      "id": "1773214865419",
+      "postId": 1,
+      "date": "2026-03-11T07:41:05.419Z",
+      "content": "Test commentaire Cypress"
+    },
+    {
+      "id": "1773215082833",
+      "postId": 1,
+      "date": "2026-03-11T07:44:42.833Z",
+      "content": "Test commentaire Cypress"
+    },
+    {
+      "id": "1773215286099",
+      "postId": 1,
+      "date": "2026-03-11T07:48:06.099Z",
+      "content": "Test commentaire Cypress"
+    },
+    {
+      "id": "1773215327412",
+      "postId": 1,
+      "date": "2026-03-11T07:48:47.412Z",
+      "content": "Test commentaire Cypress"
+    },
+    {
+      "id": "1773215597526",
+      "postId": 1,
+      "date": "2026-03-11T07:53:17.526Z",
+      "content": "Test commentaire Cypress"
+    },
+    {
+      "id": "1773215639962",
+      "postId": 1,
+      "date": "2026-03-11T07:53:59.962Z",
+      "content": "Test commentaire Cypress"
+    },
+    {
+      "id": "1773215915063",
+      "postId": 1,
+      "date": "2026-03-11T07:58:35.063Z",
+      "content": "Test commentaire Cypress"
+    },
+    {
+      "id": "1773216240236",
+      "postId": 1,
+      "date": "2026-03-11T08:04:00.236Z",
+      "content": "Test commentaire Cypress"
+    },
+    {
+      "id": 1773216257242,
+      "postId": 1,
+      "date": "2026-03-11T08:04:17.242Z",
+      "content": "Test commentaire Cypress"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

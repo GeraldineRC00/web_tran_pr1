@@ -4,97 +4,63 @@
   <meta charset="UTF-8">
   <title>CEPI | Article</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!--Google fonts-->
   <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
-
-  <!--bootstrap-->
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
-
-  <!-- CSS compilado en sass-->
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container">
-            <a class="navbar-brand fw-bold" href="#">CEPI · Blog</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <div class="collapse navbar-collapse" id="menu">
-                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Menu1</a></li>
-                    <li class="nav-item"><a class="nav-link" href="post.html">Menu2</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Menu3</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Menu4</a></li>
-                </ul>
-                <!-- Avatar -->
-                 <div class="ms-lg-3">
-                    <i class="bi bi-person-circle fs-3 text-white"></i>
-                </div>
-            </div>
-        </div>
-    </nav>
-    <header class="post-hero">
-        <img src="img/logo.png" alt="Logo" width="40">
-    </header>
 
-    <main class="container post-content my-5">
-        <h1 class="post-title text-center mb-4">Titre du blog</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus,nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.</p>
-        <p>Aliquam egestas, velit at condimentum placerat, sem sapien laoreet mauris,dictum porttitor lacus est nec enim. Vivamus feugiat elit lorem eu porttitor.</p>
-        
-        <figure class="post-image my-4 text-center">
-            <img src="img/post2.jpg" class="img-fluid">
-            <figcaption>Caption</figcaption>
-        </figure>
-        <p>Phasellus suscipit tellus ante, nec adipiscing elit imperdiet nec. Nullam fringilla feugiat nisl ut pretium.</p>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">CEPI · Blog</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Menu2</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Menu3</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Menu4</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <!-- comments -->
+  <!-- POST -->
+  <main class="container post-content my-5">
+    <h1 class="post-title text-center mb-4"></h1>
+    <div id="postBody"></div>
+
+    <!-- COMMENTS -->
     <section class="comments mt-5">
-        <h3 class="mb-3">Commentaires</h3>
-        
-        <form class="mb-4">
-            <textarea class="form-control mb-3" rows="4" placeholder="Votre commentaire"></textarea>
-            <button class="btn btn-dark px-4">Submit</button>
-        </form>
+      <h3 class="mb-3">Commentaires</h3>
 
-        <div class="comment">
-            <div class="avatar">
-                <img src="img/user.png" alt="Logo" width="40">
-            </div>
-            <div class="comment-body">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-        </div>
-        
-        <div class="comment">
-            <div class="avatar">
-                <img src="img/user.png" alt="Logo" width="40">
-            </div>
-            <div class="comment-body">
-                <p>
-                    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-            </div>
-        </div>
+      <!-- Formulario de comentario -->
+      <form id="commentForm" class="mb-4">
+        <textarea id="commentInput" class="form-control mb-3" rows="4" placeholder="Votre commentaire"></textarea>
+        <button type="button" class="btn btn-dark px-4" id="sendComment">Envoyer</button>
+      </form>
+
+      <div id="commentsContainer">
+        <!-- Comentarios dinámicos  -->
+      </div>
     </section>
-    </main>
+  </main>
 
-    <footer class="footer text-center py-4">
-        <div class="social mb-2">
-            <i class="bi bi-facebook"></i>
-            <i class="bi bi-twitter"></i>
-            <i class="bi bi-linkedin"></i>
-        </div>
-        <p class="mb-0">
-            Centre d’Expertise et de Perfectionnement en Informatique<br>
-            <small>2022</small>
-        </p>
-    </footer>
-    
-<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- FOOTER -->
+  <footer class="footer text-center py-4 bg-light mt-5">
+    <p class="mb-0">
+      Centre d’Expertise et de Perfectionnement en Informatique<br>
+      <small>2022</small>
+    </p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
