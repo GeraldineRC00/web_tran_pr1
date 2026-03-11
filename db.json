@@ -29,18 +29,32 @@
       "date": "2026-03-11T07:58:40.451Z"
     },
     {
-      "id": 1773216246010,
+      "id": "1773216246010",
       "title": "Post Cypress Test",
       "author": "Auteur Test",
       "content": "Contenu du post pour Cypress",
       "date": "2026-03-11T08:04:06.010Z"
     },
     {
-      "id": 1773216262944,
+      "id": "1773216262944",
       "title": "Post Cypress Test",
       "author": "Auteur Test",
       "content": "Contenu du post pour Cypress",
       "date": "2026-03-11T08:04:22.944Z"
+    },
+    {
+      "id": "1773217155769",
+      "title": "Post Cypress Test",
+      "author": "Auteur Test",
+      "content": "Contenu du post pour Cypress",
+      "date": "2026-03-11T08:19:15.769Z"
+    },
+    {
+      "id": 1773217510287,
+      "title": "Post Cypress Test",
+      "author": "Auteur Test",
+      "content": "Contenu du post pour Cypress",
+      "date": "2026-03-11T08:25:10.287Z"
     }
   ],
   "comments": [
@@ -219,9 +233,21 @@
       "content": "Test commentaire Cypress"
     },
     {
-      "id": 1773216257242,
+      "id": "1773216257242",
       "postId": 1,
       "date": "2026-03-11T08:04:17.242Z",
+      "content": "Test commentaire Cypress"
+    },
+    {
+      "id": "1773217150304",
+      "postId": 1,
+      "date": "2026-03-11T08:19:10.304Z",
+      "content": "Test commentaire Cypress"
+    },
+    {
+      "id": "1773217504743",
+      "postId": 1,
+      "date": "2026-03-11T08:25:04.743Z",
       "content": "Test commentaire Cypress"
     }
   ],
